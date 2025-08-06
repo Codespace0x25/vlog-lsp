@@ -7,7 +7,7 @@ CC      = clang++
 # Project Structure
 SRC     = src
 BUILD   = build
-TARGET  = $(BUILD)/main
+TARGET  = $(BUILD)/vlog-lsp-dev
 
 # Flags
 CFLAGS  =  -Wall -Wextra -O2 

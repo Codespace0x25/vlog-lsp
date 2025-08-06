@@ -1,6 +1,10 @@
 #include <iostream>
+#include "LSPServer.hpp"
 
 int main() {
-  std::cout<<"hi\n";
+  LSPServer* lsp = new  LSPServer();
+  lsp->run();
+
+  delete lsp;
   return 0;
 }

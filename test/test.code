@@ -1,0 +1,8 @@
+require "lib.code"
+
+
+
+defun main(void) int{
+	printf("hi");
+	return 0;
+}
